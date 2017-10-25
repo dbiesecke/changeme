@@ -10,13 +10,22 @@ auth:
     password: password    
   - username: admin
     password: 123456      
+  - username: admin
+    password: 12345
+  - username: admin
+    password: 12345678
+  - username: admin
+    password: qwerty
+  - username: admin
+    password: 1234567890    
+  - username: admin
+    password: 1234     
   post:
     username: account
     password: passwd
-    pi: SYNO.API.Auth
+    api: SYNO.API.Auth
     version: 3
     method: login
-    j_character_encoding: UTF-8
   success:
     body: 
     - '"success":true'
